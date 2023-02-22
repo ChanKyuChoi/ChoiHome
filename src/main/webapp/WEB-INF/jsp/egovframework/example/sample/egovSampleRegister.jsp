@@ -40,7 +40,10 @@
            	document.detailForm.action = "<c:url value='/egovSampleList.do'/>";
            	document.detailForm.submit();
         }
-        
+        function fn_egov_selectList2() {
+           	document.detailForm.action = "<c:url value='/egovSampleList.do'/>";
+           	document.detailForm.submit();
+        }
         /* 글 삭제 function */
         function fn_egov_delete() {
            	document.detailForm.action = "<c:url value='/deleteSample.do'/>";
